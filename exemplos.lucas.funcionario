@@ -1,0 +1,47 @@
+App java
+
+import model.Funcionario;
+import model.CalculoSalario;
+
+public class App {
+
+
+public static void main(String[] args){
+    Funcionario funcionario = new Funcionario(
+        (short)1,
+        "Tuane",
+        5
+    );
+    CalculoSalario calculoSalario = new CalculoSalario(
+        1200
+    );
+ }
+}
+
+''
+-------------------------------------------------------
+dentro de model = calculosalario.java
+
+package model;
+
+public class CalculoSalario {
+        public CalculoSalario( int salario){
+            
+        }
+}
+
+----------------------------------------------
+
+dentro de model = funcionario.java
+
+package model;
+
+public class Funcionario {
+
+    public Funcionario(
+    short chapa, 
+    String nome, 
+    float valorHora){
+    }
+}
+
